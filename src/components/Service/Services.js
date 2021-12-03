@@ -10,38 +10,33 @@ const Services = () => {
                 <div class="item">
                   <div class="service-box">
                     <span class="bottom25"><i class="fa fa-clipboard"></i></span>
-                    <h4 class="bottom10 text-nowrap"><a href="javascript:void(0)">Well Documented</a></h4>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                    <h4 class="bottom10 text-nowrap"><a href="javascript:void(0)">IT Consulting</a></h4>
+                    <p>TWith one of the most esteemed multilingual teams in Japan, Sharvil provides top notch quality researched work in our IT Consulting branch.</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="service-box">
                     <span class="bottom25"><i class="fa fa-laptop"></i></span>
-                    <h4 class="bottom10"><a href="javascript:void(0)">Fully Responsive</a></h4>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                    <h4 class="bottom10"><a href="javascript:void(0)">IT Development</a></h4>
+                    <p> Boasting a team of honed engineers, Sharvil’s IT Development branch can transform your imagination into a beautiful reality. Fields of expertise include Web/Software Development, AI & ML and Cybersecurity.
+                    </p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="service-box">
                     <span class="bottom25"><i class="fa fa-globe"></i></span>
-                    <h4 class="bottom10"><a href="javascript:void(0)">Full Support</a></h4>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                    <h4 class="bottom10"><a href="javascript:void(0)">Business Consulting</a></h4>
+                    <p>With a client base spread all across Europe, Asia and America, Sharvil JP has been dealing with the trade of various goods and commodities. By the way, have you tried Yamazaki yet ?</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="service-box">
                     <span class="bottom25"><i class="fa fa-edit"></i></span>
-                    <h4 class="bottom10"><a href="javascript:void(0)">Clean Coded</a></h4>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                    <h4 class="bottom10"><a href="javascript:void(0)">Trading and Exports</a></h4>
+                    <p>With a client base spread all across Europe, Asia and America, Sharvil JP has been dealing with the trade of various goods and commodities. By the way, have you tried Yamazaki yet ?</p>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="service-box">
-                    <span class="bottom25"><i class="fa fa-globe"></i></span>
-                    <h4 class="bottom10"><a href="javascript:void(0)">SEO Optimized</a></h4>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>

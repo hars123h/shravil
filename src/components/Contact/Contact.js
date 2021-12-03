@@ -11,7 +11,7 @@ const Contact = () => {
 
 
                     <div className="row">
-                    <h2 className="text-center my-5 pb-5">Contact Us</h2>
+                        <h2 className="text-center my-5 pb-5">Contact Us</h2>
 
                         <div className="col-12 col-md-5">
 
@@ -69,8 +69,8 @@ const Contact = () => {
                         <div className="col-12 col-md-6 offset-md-1 small-device-space">
                             <h4>We’re passionate about helping local businesses to grow online.</h4>
                             <p>Lorem ipsum dolor sit amet sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas culpa qui officia deserunt accumsan.</p>
-                            <p><a href="#" className="btn btn-outline-danger mt-2 btnFont px-4 me-3"><i class="fas fa-phone-alt  me-2"></i>090 123 4567</a> 
-                            <a href="#" className="btn btn-danger mt-2 btnFont px-4"><i class="far fa-envelope-open me-2"></i>sales@example.com</a>                                </p>
+                            <p><a href="#" className="btn btn-outline-danger mt-2 btnFont px-4 me-3"><i class="fas fa-phone-alt  me-2"></i>090 123 4567</a>
+                                <a href="#" className="btn btn-danger mt-2 btnFont px-4"><i class="far fa-envelope-open me-2"></i>sales@example.com</a>                                </p>
 
                             {/* <!-- nested row for offset column starts --> */}
                             <div className="row dtr-mt-100">
@@ -109,6 +109,9 @@ const Contact = () => {
                                                 <div id="contactresult"></div>
                                             </fieldset>
                                         </form>
+
+
+                                       
 
 
                                         <p className="text-size-sm color-white dtr-mt-10">*Your information is protected by Skwirel’s <a href="#" className="text-decoration-underline">Privacy Policy</a>.</p>

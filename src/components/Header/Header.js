@@ -8,8 +8,8 @@ const Header = () => {
           <nav class="navbar navbar-expand-lg transparent-bg static-nav">
             <div class="container">
               <a class="navbar-brand" href="index.html">
-                <img src="images/logo-transparent.png" alt="logo" class="logo-default" />
-                <img src="images/logo.png" alt="logo" class="logo-scrolled" />
+                <img src="images/logo1.png" alt="logo" class="logo-default"  />
+                <img src="images/logo2.png" alt="logo" class="logo-scrolled" />
               </a>
               <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-auto ms-xl-auto me-xl-0">

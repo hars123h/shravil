@@ -1854,7 +1854,7 @@ ul.links li a::before,
 }
 
 .navbar-brand {
-    margin: 0;
+    margin:12px 0 4px;
     padding: 0;
     width: 90px;
     position: relative;
@@ -1864,7 +1864,7 @@ ul.links li a::before,
     position: absolute;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin: 12px auto 5px;
     text-align: center;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -1880,9 +1880,15 @@ ul.links li a::before,
 }
 
 .navbar-brand>img {
-    width: 160px !important;
-    margin: 0 !important;
+    /* width: 160px !important; */
+   
     
+}
+.logo-default{
+    width:160px !important;
+}
+.logo-scrolled{
+    width:100px !important;
 }
 
 .navbar.fixedmenu .logo-default,
@@ -1919,7 +1925,7 @@ ul.links li a::before,
     color: #26313c;
     position: relative;
     line-height: normal;
-    margin: 1px 1.25rem;
+    margin: 8px 1.25rem;
     display: inline-block;
 }
 

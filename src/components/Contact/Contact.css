@@ -28,7 +28,7 @@
 
 
 .color-red {
-    color: #e2434b !important;
+    color: #066636 !important;
 }
 
 
@@ -101,7 +101,7 @@
     background-image: none;
     width: auto;
     height: auto;
-    color: #e2434b;
+    color: #066636;
 }
 
 .dtr-accordion .accordion-button:focus {
@@ -217,25 +217,25 @@ input[type="reset"] {
 }
 .btn-red-outline {
     background-color: #fff;
-    border-color: #e2434b;
-    color: #e2434b;
+    border-color: #066636;
+    color: #066636;
 }
 
 .btn-red-outline:hover {
-    background-color: #e2434b;
-    border-color: #e2434b;
+    background-color: #066636;
+    border-color: #066636;
     color: #fff;
 }
 
 .btn-red-transparent {
     background-color: transparent;
     border-color: transparent;
-    color: #e2434b;
+    color: #066636;
 }
 
 .btn-red-transparent:hover {
-    background-color: #e2434b;
-    border-color: #e2434b;
+    background-color: #066636;
+    border-color: #066636;
     color: #fff;
 }
 
@@ -250,7 +250,7 @@ input[type="reset"] {
 }
 
 .bg-red {
-    background-color: #e2434b !important;
+    background-color: #066636 !important;
 }
 
 .color-white,

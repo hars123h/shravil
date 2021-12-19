@@ -5,7 +5,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <>
-            <section id="contact" className="contactSection contactSection-center-bg dtr-py-100" style={{ backgroundImage: "url(/images/shape-3.svg)" }}>
+            <section id="" className="contactSection contactSection-center-bg dtr-py-100" >
 
                 <div className="container">
 
@@ -19,7 +19,7 @@ const Contact = () => {
                             <h2 className="contactSection-heading">FAQ</h2>
 
 
-                            {/* <div className="dtr-accordion accordion dtr-mt-30" id="accordion1">
+                            <div className="dtr-accordion accordion dtr-mt-30" id="accordion1">
 
 
                                 <div className="accordion-item">
@@ -61,16 +61,16 @@ const Contact = () => {
                                 </div>
 
 
-                            </div> */}
+                            </div>
 
 
                         </div>
 
-                        <div className="col-12 col-md-6 offset-md-1 small-device-space">
+                        <div className="col-12 col-md-6 offset-md-1 small-device-space" style={{ overflowX: "hidden" }}>
                             <h4>We’re passionate about helping local businesses to grow online.</h4>
                             <p>Lorem ipsum dolor sit amet sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas culpa qui officia deserunt accumsan.</p>
-                            <p><a href="#" className="btn btn-outline-danger mt-2 btnFont px-4 me-3"><i class="fas fa-phone-alt  me-2"></i>090 123 4567</a>
-                                <a href="#" className="btn btn-danger mt-2 btnFont px-4"><i class="far fa-envelope-open me-2"></i>sales@example.com</a>                                </p>
+                            <p><a href="#" className="btn btn-outline-success mt-2 btnFont px-4 me-3"><i className="fas fa-phone-alt  me-2"></i>090 123 4567</a>
+                                <a href="#" className="btn btn-success mt-2 btnFont px-4"><i className="far fa-envelope-open me-2"></i>sales@example.com</a>                                </p>
 
                             {/* <!-- nested row for offset column starts --> */}
                             <div className="row dtr-mt-100">
@@ -111,7 +111,7 @@ const Contact = () => {
                                         </form>
 
 
-                                       
+
 
 
                                         <p className="text-size-sm color-white dtr-mt-10">*Your information is protected by Skwirel’s <a href="#" className="text-decoration-underline">Privacy Policy</a>.</p>

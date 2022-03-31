@@ -6,13 +6,13 @@ const Header = () => {
 
       <header className="site-header" id="header">
         <nav className="navbar navbar-expand-lg transparent-bg static-nav">
-          <div className="container">
+          <div className="container-fluid">
             <a className="navbar-brand" href="/">
               <img src="images/logo1.png" alt="logo" className="logo-default" />
               <img src="images/logo2.png" alt="logo" className="logo-scrolled" />
             </a>
             <div className="collapse navbar-collapse">
-              <ul className="navbar-nav mx-auto ms-xl-auto me-xl-0">
+              <ul className="navbar-nav  ms-xl-auto navElementStyle " >
                 <li className="nav-item">
                   <a className="nav-link active pagescroll" href="#home">Home</a>
                 </li>

@@ -23,7 +23,7 @@ const Hero = () => {
                                 {/* <!-- LAYER NR. 2 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text"
                                     data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h1 className="text-capitalize font-bold whitecolor text-center">Creative Business</h1>
+                                    <h1 className="text-capitalize font-bold whitecolor text-center">Business Consultation </h1>
                                 </div>
                                 {/* <!-- LAYER NR. 3 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text"
@@ -33,7 +33,7 @@ const Hero = () => {
                                 {/* <!-- LAYER NR. 4 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap"
                                     data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h4 className="whitecolor font-xlight text-center">The Best Multipurpose Multi Page Template in Market</h4>
+                                    <h4 className="whitecolor font-xlight text-center">To Sky-Rocket your Sales</h4>
                                 </div>
                             </li>
                             {/* <!-- SLIDE 2 --> */}
@@ -49,17 +49,17 @@ const Hero = () => {
                                 {/* <!-- LAYER NR. 2 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text"
                                     data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h1 className="text-capitalize font-bold whitecolor text-center">Deep Creativity</h1>
+                                    <h1 className="text-capitalize font-bold whitecolor text-center">International Markets</h1>
                                 </div>
                                 {/* <!-- LAYER NR. 3 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text"
                                     data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h1 className="text-capitalize font-xlight whitecolor text-center">In Market</h1>
+                                    <h1 className="text-capitalize font-xlight whitecolor text-center">for your trades</h1>
                                 </div>
                                 {/* <!-- LAYER NR. 4 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap"
                                     data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h4 className="whitecolor font-xlight text-center">Responsive and Retina Ready for All Devices</h4>
+                                    <h4 className="whitecolor font-xlight text-center">Customised Market Research & Development</h4>
                                 </div>
                             </li>
                             {/* <!-- SLIDE 3 --> */}
@@ -70,22 +70,22 @@ const Hero = () => {
                                 {/* <!-- LAYER NR. 1 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']" data-width="none" data-height="none" data-type="text"
                                     data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h1 className="text-capitalize font-xlight whitecolor text-center">We Make</h1>
+                                    <h1 className="text-capitalize font-xlight whitecolor text-center"> IT </h1>
                                 </div>
                                 {/* <!-- LAYER NR. 2 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text"
                                     data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h1 className="text-capitalize font-bold whitecolor text-center">Inspired Design</h1>
+                                    <h1 className="text-capitalize font-bold whitecolor text-center">Consultaion & Development </h1>
                                 </div>
-                                {/* <!-- LAYER NR. 3 --> */}
+                                {/* <!-- LAYER NR. 3 --> */} 
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text"
                                     data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h1 className="text-capitalize font-xlight whitecolor text-center">Our Trax</h1>
+                                    <h1 className="text-capitalize font-xlight whitecolor text-center">Services</h1>
                                 </div>
                                 {/* <!-- LAYER NR. 4 --> */}
                                 <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap"
                                     data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                                    <h4 className="whitecolor font-xlight text-center">Is a New Design Studio founded in NewYork</h4>
+                                    <h4 className="whitecolor font-xlight text-center">Web3 Loading...</h4>
                                 </div>
                             </li>
                         </ul>

@@ -325,7 +325,7 @@ jQuery($ => {
                 if (activeClass) {
                     var activeClassId = listItem;
                     listTab.show();
-                }
+                } 
                 var itemContent = $this.clone();
                 var itemTab = $this.attr("href");
                 if (activeClassId) {

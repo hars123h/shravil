@@ -22,12 +22,16 @@ const Contact = () => {
                             <div className="dtr-accordion accordion dtr-mt-30" id="accordion1">
 
 
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="accordion1-headingOne">
-                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseOne" aria-expanded="false" aria-controls="accordion1-collapseOne"> Why do I need SEO for my business? </button>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Accordion Item #1
+                                        </button>
                                     </h2>
-                                    <div id="accordion1-collapseOne" className="accordion-collapse collapse show" aria-labelledby="accordion1-headingOne" data-bs-parent="#accordion1">
-                                        <div className="accordion-body">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable.</div>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
                                     </div>
                                 </div>
 
@@ -51,6 +55,28 @@ const Contact = () => {
                                 </div>
 
 
+                               
+
+
+                            </div>
+
+
+                        </div>
+                        <div className="col-12 col-md-6 offset-md-1 small-device-space" style={{ overflowX: "hidden", marginTop: '4.2rem' }}>
+                            <div className="dtr-accordion accordion dtr-mt-30" id="accordion1">
+
+
+                                
+
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="accordion1-headingThree2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseThree2" aria-expanded="false" aria-controls="accordion1-collapseThree2"> What is sponsored content? </button>
+                                    </h2>
+                                    <div id="accordion1-collapseThree2" className="accordion-collapse collapse" aria-labelledby="accordion1-headingThree2" data-bs-parent="#accordion1">
+                                        <div className="accordion-body">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable.</div>
+                                    </div>
+                                </div>
+
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="accordion1-headingFour">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseFour" aria-expanded="false" aria-controls="accordion1-collapseFour"> What does a digital marketer do? </button>
@@ -59,22 +85,16 @@ const Contact = () => {
                                         <div className="accordion-body">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable.</div>
                                     </div>
                                 </div>
+                                
 
 
                             </div>
-
-
                         </div>
 
-                        <div className="col-12 col-md-6 offset-md-1 small-device-space" style={{ overflowX: "hidden" }}>
-                            <h4>We’re passionate about helping local businesses to grow online.</h4>
-                            <p>Lorem ipsum dolor sit amet sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas culpa qui officia deserunt accumsan.</p>
-                            <p><a href="#" className="btn btn-outline-success mt-2 btnFont px-4 me-3"><i className="fas fa-phone-alt  me-2"></i>090 123 4567</a>
-                                <a href="#" className="btn btn-success mt-2 btnFont px-4"><i className="far fa-envelope-open me-2"></i>sales@example.com</a>                                </p>
 
-                            {/* <!-- nested row for offset column starts --> */}
-                            <div className="row dtr-mt-100">
-                                <div className="col-12 col-lg-8 offset-lg-4">
+                        
+                        <div className="row dtr-mt-100">
+                                <div className="col-12 col-lg-6 ">
 
                                     <div className="dtr-small-box dtr-rounded bg-red">
                                         <h3 className="color-white">Get A Callback</h3>
@@ -114,14 +134,24 @@ const Contact = () => {
 
 
 
-                                        <p className="text-size-sm color-white dtr-mt-10">*Your information is protected by Skwirel’s <a href="#" className="text-decoration-underline">Privacy Policy</a>.</p>
+                                        <p className="text-size-sm color-white dtr-mt-10">*Your information is protected by Sharvil <a href="#" className="text-decoration-underline">Privacy Policy</a>.</p>
                                     </div>
 
 
                                 </div>
-                            </div>
+                                <div className="col-12 col-lg-6">
+                                <div style={{ overflowX: "hidden" }}>
+                            <h4>We’re passionate about helping local businesses to grow online.</h4>
+                            <p>Lorem ipsum dolor sit amet sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas culpa qui officia deserunt accumsan.</p>
+                            <p><a href="#" className="btn btn-outline-success mt-2 btnFont px-4 me-3"><i className="fas fa-phone-alt  me-2"></i>090 123 4567</a>
+                                <a href="#" className="btn btn-success mt-2 btnFont px-4"><i className="far fa-envelope-open me-2"></i>sales@example.com</a>                                </p>
+
+                            {/* <!-- nested row for offset column starts --> */}
+                           
 
                         </div>
+                                </div>
+                            </div>
 
 
                     </div>

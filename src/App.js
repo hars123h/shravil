@@ -1,6 +1,7 @@
 
 import './App.css';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -28,6 +29,7 @@ function App() {
         <Testimonial />
 
         <Contact />
+        <Footer />
       </div>
     </>
   );

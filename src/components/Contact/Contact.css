@@ -22,6 +22,13 @@
     background-size: cover;
     background-attachment: fixed;
 }
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
 
 
 /* overlay */
@@ -80,7 +87,13 @@
     padding: 5px 30px 20px 30px;
     border: 0;
     border-radius: 0 0 4px 4px;
-    background-color: #34222e;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#066636), color-stop(51%, #3fb0b0), to(#066636));
+    background-image: -webkit-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -moz-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -o-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: linear-gradient(to right, #066636 0%, #3fb0b0 51%, #066636 100%);
     color: #fff;
 }
 
@@ -94,10 +107,7 @@
     color: #34222e;
 }
 
-.dtr-accordion .accordion-button::after {
-   
-    color: #066363 !important;
-}
+
 
 .dtr-accordion .accordion-button:focus {
     border: 0 !important;
@@ -110,8 +120,8 @@
 }
 
 .dtr-accordion .accordion-button:not(.collapsed) {
-    background-color: #34222e;
-    color: #fff;
+    background-color: #fff;
+    color: #34222e;
 }
 
 
@@ -121,8 +131,8 @@
     color: white;
 }
 .inputBg {
-    background-color: #34222e;
-    border-color: #34222e;
+    background-color: #fff;
+    border-color: #fff;
 }
 .btnFont{
     font-size: 18px !important;
@@ -130,7 +140,8 @@
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #fff;
+    color: #066363;
+    font-weight: 500 !important;
     /* Firefox */
 }
 .form-control:focus {
@@ -139,9 +150,9 @@
  .form-control:active,
 .form-control:focus,
 .form-control:focus:active {
-  background-color: #34222e!important;
-  border-color: #34222e;
-  color: #fff;
+  background-color: #fff!important;
+  border-color: #fff;
+  color: #34222e;
 }
 
 .btnCustom {
@@ -245,7 +256,13 @@ input[type="reset"] {
 }
 
 .bg-red {
-    background-color: #066363 !important;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#066636), color-stop(51%, #3fb0b0), to(#066636));
+    background-image: -webkit-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -moz-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -o-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: linear-gradient(to right, #066636 0%, #3fb0b0 51%, #066636 100%);
 }
 
 .color-white,

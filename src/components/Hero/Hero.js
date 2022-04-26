@@ -91,12 +91,12 @@ const Hero = () => {
                         </ul>
                     </div>
                 </div>
-                <ul className="social-icons-simple revicon white">
+                {/* <ul className="social-icons-simple revicon white">
                     <li className="d-table"><a href="javascript:void(0)" className="facebook"><i className="fab fa-facebook-f"></i></a> </li>
                     <li className="d-table"><a href="javascript:void(0)" className="twitter"><i className="fab fa-twitter"></i> </a> </li>
                     <li className="d-table"><a href="javascript:void(0)" className="linkedin"><i className="fab fa-linkedin-in"></i> </a> </li>
                     <li className="d-table"><a href="javascript:void(0)" className="insta"><i className="fab fa-instagram"></i> </a> </li>
-                </ul>
+                </ul> */}
             </section>
         </>
     )

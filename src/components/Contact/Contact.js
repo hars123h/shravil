@@ -5,7 +5,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <>
-            <section id="" className="contactSection contactSection-center-bg dtr-py-100" >
+            <section id="contact" className="contactSection contactSection-center-bg dtr-py-100" >
 
                 <div className="container">
 

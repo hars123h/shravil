@@ -145,8 +145,8 @@ jQuery($ => {
         $("html,body").animate({
             scrollTop: action
         }, 100);
-        // $(".navbar-nav li a").removeClass("active");
-        // $(this).addClass('active');
+        $(".navbar-nav li a").removeClass("active");
+        $(this).addClass('active');
 
     });
 

@@ -14,7 +14,7 @@ const Header = () => {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav  ms-xl-auto navElementStyle " >
                 <li className="nav-item">
-                  <a className="nav-link active pagescroll" href="#home">Home</a>
+                  <a className="nav-link  pagescroll" href="#home">Home</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link pagescroll scrollupto" href="#about">About Us</a>
@@ -64,14 +64,14 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <div className="side-footer w-100">
+            {/* <div className="side-footer w-100">
               <ul className="social-icons-simple white top40">
                 <li><a href="javascript:void(0)" className="facebook"><i className="fab fa-facebook-f"></i> </a> </li>
                 <li><a href="javascript:void(0)" className="twitter"><i className="fab fa-twitter"></i> </a> </li>
                 <li><a href="javascript:void(0)" className="insta"><i className="fab fa-instagram"></i> </a> </li>
               </ul>
               <p className="whitecolor">&copy; <span id="year"></span> Sharvil. Made With Love by Sharvil</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div id="close_side_menu" className="tooltip"></div>

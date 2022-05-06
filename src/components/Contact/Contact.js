@@ -80,12 +80,13 @@ const Contact = () => {
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingOne">
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Accordion Item #1
+                                                Can you help my current site look more professional?
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                   
+                                                Yes. Give us your requirements and we have experienced expertise to help you give a new professional look that really whistles!
                                                 </div>
                                             </div>
                                         </div>
@@ -94,28 +95,44 @@ const Contact = () => {
 
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="accordion1-headingTwoone">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseTwo2" aria-expanded="false" aria-controls="accordion1-collapseTwo2"> What is meant by 'web presence'? </button>
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseTwo2" aria-expanded="false" aria-controls="accordion1-collapseTwo2">
+                                                What If I am not satisfied by your service?
+                                                 </button>
                                             </h2>
                                             <div id="accordion1-collapseTwo2" className="accordion-collapse collapse" aria-labelledby="accordion1-headingTwoone" data-bs-parent="#accordion1">
-                                                <div className="accordion-body">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable.</div>
+                                                <div className="accordion-body">
+                                                Oh No! We really don’t hope for that. But as per our business agreement and policy, the unsatisfied customer will be paid off within 90 days(It normally takes that time to get our accounts set right and return the funds to you).
+                                            </div>
                                             </div>
                                         </div>
 
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="accordion1-headingTwo">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseTwo" aria-expanded="false" aria-controls="accordion1-collapseTwo"> What is meant by 'web presence'? </button>
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseTwo" aria-expanded="false" aria-controls="accordion1-collapseTwo">
+                                                Why should I hire a professional web development company like Sharvil ?
+                                                 </button>
                                             </h2>
                                             <div id="accordion1-collapseTwo" className="accordion-collapse collapse" aria-labelledby="accordion1-headingTwo" data-bs-parent="#accordion1">
-                                                <div className="accordion-body">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable.</div>
+                                                <div className="accordion-body">
+                                                With the tools and development kits available in the web, anyone with little or no knowledge about web development could create a website and have it up and running in minutes. So, what is it that the professional web development companies offer?
+
+These companies provide best-in-class web development solutions, adopting the latest development tools
+ and strategies to ensure that the look-and-feel of your website not only attracts more visitors but also allures them to pay a visit often. The web development professionals have the ability of transforming your business ideas into innovative and intuitive websites that helps you reach out to your 
+customers in the perfect way.
+                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="accordion1-headingThree">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseThree" aria-expanded="false" aria-controls="accordion1-collapseThree"> What is sponsored content? </button>
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseThree" aria-expanded="false" aria-controls="accordion1-collapseThree">
+                                                What is your response turnaround time?
+                                                </button>
                                             </h2>
                                             <div id="accordion1-collapseThree" className="accordion-collapse collapse" aria-labelledby="accordion1-headingThree" data-bs-parent="#accordion1">
-                                                <div className="accordion-body">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable.</div>
+                                                <div className="accordion-body">We will respond to all the emails quickly. Approximately the first response can be expected within 90 minutes in our working hours. Within 24 hours all the first responses will be executed.
+                                                
+                                                </div>
                                             </div>
                                         </div>
 

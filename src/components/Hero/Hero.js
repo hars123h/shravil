@@ -88,6 +88,33 @@ const Hero = () => {
                                     <h4 className="whitecolor font-xlight text-center">Web3 Loading...</h4>
                                 </div>
                             </li>
+
+                            {/* Slide 4 */}
+                            <li data-index="rs-04" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="04">
+                                {/* <!-- MAIN IMAGE --> */}
+                                <img src="images/blockchain.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" className="rev-slidebg" data-no-retina />
+                                <div className="overlay overlay-dark opacity-7"></div>
+                                {/* <!-- LAYER NR. 1 --> */}
+                                <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']" data-width="none" data-height="none" data-type="text"
+                                    data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                                    <h1 className="text-capitalize font-xlight whitecolor text-center"> AI/ML </h1>
+                                </div>
+                                {/* <!-- LAYER NR. 2 --> */}
+                                <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text"
+                                    data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                                    <h1 className="text-capitalize font-bold whitecolor text-center">Blockchain . AR/VR </h1>
+                                </div>
+                                {/* <!-- LAYER NR. 3 --> */} 
+                                <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text"
+                                    data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                                    <h1 className="text-capitalize font-xlight whitecolor text-center">Services</h1>
+                                </div>
+                                {/* <!-- LAYER NR. 4 --> */}
+                                <div className="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap"
+                                    data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                                    <h4 className="whitecolor font-xlight text-center">Web3 Loading...</h4>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>

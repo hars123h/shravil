@@ -18,27 +18,34 @@ const WorkProcess = () => {
                     <li className="whitecolor wow fadeIn" data-wow-delay="300ms">
                         <span className="pro-step bottom20">01</span>
                         <p className="fontbold bottom20">Concept</p>
-                        <p className="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                        <p className="mt-n2 mt-sm-0">
+                        We  define your goals, analysis the requirements and make the project schedule
+                        </p>
                     </li>
                     <li className="whitecolor wow fadeIn" data-wow-delay="400ms">
                         <span className="pro-step bottom20">02</span>
                         <p className="fontbold bottom20">Plan</p>
-                        <p className="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                        <p className="mt-n2 mt-sm-0">
+
+                            We make requirements documents, wireframing of pages,  clickable prototype and sitemap
+                        </p>
                     </li>
                     <li className="whitecolor wow fadeIn active" data-wow-delay="500ms">
                         <span className="pro-step bottom20">03</span>
                         <p className="fontbold bottom20">Design</p>
-                        <p className="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                        <p className="mt-n2 mt-sm-0">We design the software or website that support good looks and feel and makes different from other
+                         </p>
                     </li>
                     <li className="whitecolor wow fadeIn" data-wow-delay="600ms">
                         <span className="pro-step bottom20">04</span>
                         <p className="fontbold bottom20">Development</p>
-                        <p className="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                        <p className="mt-n2 mt-sm-0">We build your software with developing new content data that appear on site</p>
                     </li>
                     <li className="whitecolor wow fadeIn" data-wow-delay="700ms">
                         <span className="pro-step bottom20">05</span>
-                        <p className="fontbold bottom20">Quality Check</p>
-                        <p className="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                        <p className="fontbold bottom20">Launch and maintenance</p>
+                        <p className="mt-n2 mt-sm-0">we get the final approval and go live. It's not over yet! We keep up to date website
+                        with content and technologies </p>
                     </li>
                 </ul>
             </div>

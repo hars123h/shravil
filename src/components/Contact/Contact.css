@@ -275,4 +275,7 @@ input[type="reset"] {
 .color-white a {
     color: #fff;
 }
+.accordion-body {
+    font-size: 17px;
+}
 

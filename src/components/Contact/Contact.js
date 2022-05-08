@@ -17,7 +17,7 @@ const Contact = () => {
                         <div className="row dtr-mt-100">
                             <div className="col-12 col-lg-6 ">
                                 <div className="dtr-small-box dtr-rounded bg-red">
-                                    <h3 className="color-white mb-3">Get A Callback</h3>
+                                    <h3 className="color-white mb-3">Contact Us</h3>
 
                                     <form id="contactform" method="post" action="php/contact-form.php">
                                         <fieldset>
@@ -39,7 +39,7 @@ const Contact = () => {
 
                                             <div className="mb-3">
 
-                                                <textarea className="form-control inputBg" placeholder="message..." rows="3"></textarea>
+                                                <textarea className="form-control inputBg" placeholder="Message..." rows="3"></textarea>
 
                                             </div>
 

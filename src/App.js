@@ -24,6 +24,7 @@ function App() {
           <div class="loader-inner">
             <div class="cssload-loader"></div>
           </div>
+          <div style={{color: 'black'}}>Driving Imaginations to Reality</div>
         </div>
 
         <Hero />

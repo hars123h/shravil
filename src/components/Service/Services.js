@@ -60,11 +60,12 @@ const Services = () => {
               {/* <a href="javascript:void(0)" class="button gradient-btn mb-sm-0 mb-4">Learn More</a> */}
             </div>
             <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
-              <div class="image"><img alt="SEO" src="images/awesome-feature.png" /></div>
+              <div class="image"><img alt="SEO" src="images/whywe.jpg" /></div>
             </div>
           </div>
         </div>
       </section>
+      
     </>
   )
 }

@@ -1,11 +1,45 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Contact.css'
+import axios from "axios";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Contact = () => {
+    const [formObj,setFormObj]=useState({
+        name:"",
+        email:"",
+        phone:"",
+        message:"",
+    })
+
+    const sendContactMail=async(e)=>{
+        e.preventDefault()
+        const response=await axios({
+            method:"post",
+            url:"https://formspree.io/f/xqknwkyo",
+            data:{
+                ...formObj
+            }
+        })
+        if(response.status===200){
+            setFormObj({name:"",email:'', phone: '', message:""})
+            toast.success("Your mail is sent. We will contact you as soon as possible.")
+            console.log("Your mail is sent. We will contact you as soon as possible.")
+        }else{
+            toast.error("Oops. Something went wrong")
+            console.log("Oops. Something went wrong")
+
+        }
+    }
+
     return (
         <>
             <section id="contact" className="contactSection contactSection-center-bg dtr-py-100" >
+            <ToastContainer
+        theme='colored'
+      />
 
                 <div className="container">
 
@@ -19,32 +53,64 @@ const Contact = () => {
                                 <div className="dtr-small-box dtr-rounded bg-red">
                                     <h3 className="color-white mb-3">Contact Us</h3>
 
-                                    <form id="contactform" method="post" action="php/contact-form.php">
+                                    <form id="contactform">
                                         <fieldset>
                                             <div className="mb-3">
 
-                                                <input type="text" className="form-control inputBg" placeholder="Name" />
+                                                <input type="text" 
+                                                className="form-control inputBg"
+                                                placeholder="Name"
+
+                                                name="name"
+                                                value={formObj.name}
+                                                  onChange={e=>setFormObj({...formObj,name:e.target.value})}
+                                                 
+                                                  />
 
                                             </div>
                                             <div className="mb-3">
 
-                                                <input type="email" className="form-control inputBg" placeholder="Email" />
+                                                <input type="email"
+                                                 className="form-control inputBg"
+                                                  placeholder="Email" 
+                                                      
+                                                name="email"
+                                                value={formObj.email}
+                                                  onChange={e=>setFormObj({...formObj,email:e.target.value})}
+                                                  />
 
                                             </div>
                                             <div className="mb-3">
 
-                                                <input type="email" className="form-control inputBg" placeholder="Phone" />
+                                                <input type="text"
+                                                 className="form-control inputBg" 
+                                                 placeholder="Phone"
+                                                 
+                                                name="phone"
+                                                value={formObj.phone}
+                                                  onChange={e=>setFormObj({...formObj,phone:e.target.value})}
+                                                  />
 
                                             </div>
 
                                             <div className="mb-3">
 
-                                                <textarea className="form-control inputBg" placeholder="Message..." rows="3"></textarea>
+                                                <textarea 
+                                                className="form-control inputBg"
+                                                 placeholder="Message..." rows="3"
+                                                 
+                                                name="message"
+                                                value={formObj.message}
+                                                  onChange={e=>setFormObj({...formObj,message:e.target.value})}
+                                                 
+                                                 >
+
+                                                 </textarea>
 
                                             </div>
 
                                             <p>
-                                                <button className="btn btnCustom" type="submit">Request A Callback</button>
+                                                <button className="btn btnCustom" onClick={sendContactMail}>Request A Callback</button>
                                             </p>
                                             <div id="contactresult"></div>
                                         </fieldset>
@@ -60,14 +126,7 @@ const Contact = () => {
 
                             </div>
                             <div className="col-12 col-lg-6">
-                                {/* <div style={{ overflowX: "hidden" }}>
-                                    <h4>We’re passionate about helping local businesses to grow online.</h4>
-                                    <p>Lorem ipsum dolor sit amet sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas culpa qui officia deserunt accumsan.</p>
-                                    <p><a href="#" className="btn btn-outline-success mt-2 btnFont px-4 me-3"><i className="fas fa-phone-alt  me-2"></i>090 123 4567</a>
-                                        <a href="#" className="btn btn-success mt-2 btnFont px-4"><i className="far fa-envelope-open me-2"></i>sales@example.com</a>                                </p>
-
-                                    
-                                </div> */}
+                              
                                 <div >
 
                                     <p className="dtr-tagline color-red">Commonly Asked Questions</p>

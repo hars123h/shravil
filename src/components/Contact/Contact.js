@@ -18,7 +18,7 @@ const Contact = () => {
         e.preventDefault()
         const response=await axios({
             method:"post",
-            url:"https://formspree.io/f/xqknwkyo",
+            url:"https://formspree.io/f/mzboynnq",
             data:{
                 ...formObj
             }

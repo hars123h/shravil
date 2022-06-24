@@ -28,7 +28,7 @@ const Header = () => {
                   <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link pagescroll" href="#contact">日本語｜EN</a>
+                  <p className="nav-link pagescroll"> <a href="/jpy">日本語</a>| <a href='/'>Eng</a></p> 
                 </li>
               </ul>
             </div>

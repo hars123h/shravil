@@ -1,4 +1,6 @@
 
+   
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800|Open+Sans:300,400,600,700');
 body {
     font-size: 15px;
@@ -319,7 +321,7 @@ p {
 }
 
 .top90 {
-    margin-top: 90px;
+    margin-top: 110px;
     line-height: 1.4;
 }
 
@@ -1892,7 +1894,7 @@ ul.links li a::before,
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 19px;
     color: #066363;
     position: relative;
     line-height: normal;
@@ -2080,7 +2082,7 @@ a.dropdown-toggle::after {
     transition: all 0s;
 }
 .navElementStyle {
-    margin-right: 40%;
+    margin-right: 30%;
     margin-left: 50%;
 }
 @media screen and (max-width: 1200px) {

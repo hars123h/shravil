@@ -22,14 +22,23 @@ const Testimonial = () => {
                 <div className="item testi-box">
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-md-12 text-center">
+                        <a href="https://www.mbsautoavenue.com/">
                             <div className="testimonial-round d-inline-block">
                                 <img src="images/testimonial-5.jpg" alt="" />
                             </div>
-                            <h4 className="defaultcolor font-light top15"><a href="#.">John Smith</a></h4>
-                            <p>UPWORK, New York</p>
+                            
+                           
+                                 <h4 className="defaultcolor font-light top15">MBS Auto Avenue (Reaan)</h4>
+                        </a>
+                            
+                           
+                            {/* <p>UPWORK, New York</p> */}
                         </div>
                         <div className="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
-                            <p className="bottom15 top90">We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we boast a years and years of service.</p>
+                            <p className="bottom15 top90 ">
+                            It was an astounding experience to work with SHARVIL Business Groups. We started off with an imagination, a rough idea on how to
+                             manage our second hand car selling business online. Starting from planning out the whole IT system to development to testing to after support, SHARVIL has been surprising me everyday with their services.
+                            </p>
                             <span className="d-inline-block test-star">
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>
@@ -44,20 +53,29 @@ const Testimonial = () => {
                 <div className="item testi-box">
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-md-12 text-center">
+                        <a href="https://cloud-jp.net/">
                             <div className="testimonial-round d-inline-block">
                                 <img src="images/testimonial-2.jpg" alt="" />
                             </div>
-                            <h4 className="defaultcolor font-light top15"><a href="#.">Hayden Wood</a></h4>
-                            <p>FIVERR, Italy</p>
+                           
+                            <h4 className="defaultcolor font-light top15"> 株式会社CLOUD</h4> </a>
+                            {/* <p>FIVERR, Italy</p> */}
                         </div>
                         <div className="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
-                            <p className="bottom15 top90">Trax’s customer testimonial page is another beauty. Its simple design focuses on videos and standout quotes from customers. This approach is clean, straightforward, text that can be overwhelming and easy to skip.</p>
+                            <p className="bottom15 top90">
+
+                            Our whole business model were to start with a blogging site, we wanted to gain traction and start off our 
+                            Shisha selling business. Not only we got the whole IT system made and maintained, but also received the business consultation on 
+                            how to get the suppliers and how to manage the financials.
+
+
+                            </p>
                             <span className="d-inline-block test-star">
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>
-                            <i className="far fa-star"></i>
+                            <i className="fas fa-star"></i>
                         </span>
                         </div>
                     </div>
@@ -66,14 +84,19 @@ const Testimonial = () => {
                 <div className="item testi-box">
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-md-12 text-center">
+                        <a href="https://www.rutilea.com/">
                             <div className="testimonial-round d-inline-block">
                                 <img src="images/testimonial-3.jpg" alt="" />
                             </div>
-                            <h4 className="defaultcolor font-light top15"><a href="#.">Kevin Miller</a></h4>
-                            <p>ENVATO, Australia</p>
+                            <h4 className="defaultcolor font-light top15">Rutilea Inc.</h4>
+                            {/* <p>ENVATO, Australia</p> */}
+                            </a>
                         </div>
                         <div className="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
-                            <p className="bottom15 top90">Trax is a company that provides tools to help professional event planning and execution, and their customers are very happy folks! The thing I love about their customer testimonial page provides content formats.</p>
+                            <p className="bottom15 top90">
+                            The knowledge we have exchanged with SHARVIL is unmatchable. The support we received was more than what we expected, it was surprising to see that a company that new could be well experienced. It was not just the IT but the sales aspect is also we took the advantage of.
+                             Looking forward to creating strong bonds with SHARVIL in terms of business.
+                            </p>
                             <span className="d-inline-block test-star">
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>
@@ -85,27 +108,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 {/* <!--item 4--> */}
-                <div className="item testi-box">
-                    <div className="row align-items-center">
-                        <div className="col-lg-4 col-md-12 text-center">
-                            <div className="testimonial-round d-inline-block">
-                                <img src="images/testimonial-4.jpg" alt="" />
-                            </div>
-                            <h4 className="defaultcolor font-light top15"><a href="#.">Alina Johanson</a></h4>
-                            <p>INTEL, Sidney</p>
-                        </div>
-                        <div className="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
-                            <p className="bottom15 top90">Startup Institute is a career accelerator that allows professionals to learn new skills, take their careers in a different direction, and pursue a career they are passionate about that have completed the program.</p>
-                            <span className="d-inline-block test-star">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="far fa-star"></i>
-                        </span>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
